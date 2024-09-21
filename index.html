@@ -1,345 +1,756 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MASTER EN CSS</title>
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
 
-    <meta name="theme-color" content="#2091F9">
+    <meta name="theme-color" content="#2091F9" />
 
-    <meta name="title" content="Aprende CSS desde cero">
-    <meta name="description"
-        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta name="title" content="Aprende CSS desde cero" />
+    <meta
+      name="description"
+      content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google."
+    />
 
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alexcgdesign.github.io" />
+    <meta property="og:title" content="Aprende CSS desde cero" />
+    <meta
+      property="og:description"
+      content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google."
+    />
+    <meta
+      property="og:image"
+      content="https://alexcgdesign.github.io/images/css.jpg"
+    />
 
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://alexcgdesign.github.io">
-    <meta property="og:title" content="Aprende CSS desde cero">
-    <meta property="og:description"
-        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
-    <meta property="og:image" content="https://alexcgdesign.github.io/images/css.jpg">
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.jordanalex.com/" />
+    <meta property="twitter:title" content="Aprende CSS desde cero" />
+    <meta
+      property="twitter:description"
+      content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
 
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.jordanalex.com/">
-    <meta property="twitter:title" content="Aprende CSS desde cero">
-    <meta property="twitter:description"
-        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
-    <meta property="twitter:image" content="https://alexcgdesign.github.io/images/css.jpg">
-</head>
+    <meta
+      property="twitter:image"
+      content="https://alexcgdesign.github.io/images/css.jpg"
+    />
+  </head>
 
-<body>
-
+  <body>
     <header class="hero">
-        <nav class="nav container">
-            <div class="nav__logo">
-                <h2 class="nav__title">Curso CSS.</h2>
-            </div>
+      <nav class="nav container">
+        <div class="nav__logo">
+          <h2 class="nav__title">Gestión de Proceso</h2>
+        </div>
 
-            <ul class="nav__link nav__link--menu">
-                <li class="nav__items">
-                    <a href="#" class="nav__links">Inicio</a>
-                </li>
-                <li class="nav__items">
-                    <a href="#" class="nav__links">Acerca de</a>
-                </li>
-                <li class="nav__items">
-                    <a href="#" class="nav__links">Contacto</a>
-                </li>
-                <li class="nav__items">
-                    <a href="#" class="nav__links">Blog</a>
-                </li>
+        <ul class="nav__link nav__link--menu">
+          <li class="nav__items">
+            <a href="#principios" class="nav__links">Principios</a>
+          </li>
+          <li class="nav__items">
+            <a href="#diagnostico" class="nav__links">Diagnóstico</a>
+          </li>
+          <li class="nav__items">
+            <a href="#procesos" class="nav__links">Informática</a>
+          </li>
+          <li class="nav__items">
+            <a href="#procesos2" class="nav__links">Caracterización</a>
+          </li>
+          <li class="nav__items">
+            <a href="#orga" class="nav__links">Organización</a>
+          </li>
 
-                <img src="./images/close.svg" class="nav__close">
-            </ul>
+          <img src="./images/close.svg" class="nav__close" />
+        </ul>
 
-            <div class="nav__menu">
-                <img src="./images/menu.svg" class="nav__img">
-            </div>
-        </nav>
+        <div class="nav__menu">
+          <img src="./images/menu.svg" class="nav__img" />
+        </div>
+      </nav>
 
-        <section class="hero__container container">
-            <h1 class="hero__title">Aprende CSS3 desde CERO hasta dominarlo.</h1>
-            <p class="hero__paragraph">Elige aprender CSS de una vez por todas, una vez que termines este curso serás
-                capaz de crear cualquier layout con CSS y crear tus propias animaciones.</p>
-            <a href="#" class="cta">Comienza ahora</a>
-        </section>
+      <section class="hero__container container">
+        <h1 class="hero__title">
+          La Gestión Integral de los Procesos en el Sistema de Información (SI)
+        </h1>
+        <p class="hero__paragraph">
+          Busca coordinar de manera eficiente todas las actividades y
+          operaciones dentro de una organización, con el objetivo de optimizar
+          el uso de los recursos y mejorar el rendimiento.
+        </p>
+        <a href="#principios" class="cta">Comienza ahora</a>
+      </section>
     </header>
 
     <main>
-        <section class="container about">
-            <h2 class="subtitle">¿Qué aprenderás en este curso?</h2>
-            <p class="about__paragraph">Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom properties,
-                Position, Animaciones, Box Model y más)</p>
+      <section class="container about" id="principios">
+        <h2 class="subtitle">Principios básicos de los procesos</h2>
+        <p class="about__paragraph">
+          Los principios básicos de los procesos son los fundamentos que guían
+          el diseño, la gestión y la mejora continua de los procesos dentro de
+          una organización. Estos principios permiten asegurar la eficiencia,
+          eficacia y alineación con los objetivos estratégicos. Aquí te explico
+          los más importantes:
+        </p>
 
-            <div class="about__main">
-                <article class="about__icons">
-                    <img src="./images/shapes.svg" class="about__icon">
-                    <h3 class="about__title">CSS Layouts</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
-                </article>
+        <div class="about__main">
+          <article class="about__icons">
+            <i
+              class="fas fa-users about__icon"
+              style="font-size: 3rem; color: #2091f9"
+            ></i>
+            <h3 class="about__title">Orientación al cliente</h3>
+            <p class="about__paragrah">
+              Enfoque en la satisfacción del cliente: Los procesos deben
+              diseñarse teniendo en mente las necesidades y expectativas de los
+              clientes, tanto internos como externos. La meta es ofrecer
+              productos o servicios que aporten valor y generen satisfacción.
+            </p>
+          </article>
 
-                <article class="about__icons">
-                    <img src="./images/paint.svg" class="about__icon">
-                    <h3 class="about__title">Animaciones</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
-                </article>
+          <article class="about__icons">
+            <i
+              class="fas fa-chart-line about__icon"
+              style="font-size: 3rem; color: #2091f9"
+            ></i>
+            <h3 class="about__title">Enfoque en resultados</h3>
+            <p class="about__paragrah">
+              Medición de la eficacia: Los procesos deben estar orientados a la
+              obtención de resultados medibles. Esto implica establecer
+              indicadores de desempeño clave (KPIs) para monitorear su
+              efectividad y ajustar en función de los resultados obtenidos.
+            </p>
+          </article>
 
-                <article class="about__icons">
-                    <img src="./images/code.svg" class="about__icon">
-                    <h3 class="about__title">Sass</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
-                </article>
+          <article class="about__icons">
+            <i
+              class="fas fa-sync-alt about__icon"
+              style="font-size: 3rem; color: #2091f9"
+            ></i>
+            <h3 class="about__title">Mejora continua</h3>
+            <p class="about__paragrah">
+              Ciclo de Deming (PDCA): Un principio fundamental es que los
+              procesos siempre deben estar en revisión y mejora. Esto se puede
+              lograr a través de ciclos como el PDCA (Plan, Do, Check, Act), que
+              permite planificar, ejecutar, verificar y actuar sobre las mejoras
+              necesarias.
+            </p>
+          </article>
+
+          <article class="about__icons">
+            <i
+              class="fas fa-tachometer-alt about__icon"
+              style="font-size: 3rem; color: #2091f9"
+            ></i>
+            <h3 class="about__title">Eficiencia operativa</h3>
+            <p class="about__paragrah">
+              Optimización de recursos: Se busca minimizar el uso de recursos
+              como tiempo, materiales y personal sin comprometer la calidad de
+              los resultados. La eficiencia implica hacer más con menos,
+              maximizando el rendimiento de cada proceso.
+            </p>
+          </article>
+
+          <article class="about__icons">
+            <i
+              class="fas fa-check-circle about__icon"
+              style="font-size: 3rem; color: #2091f9"
+            ></i>
+            <h3 class="about__title">Estándares y consistencia</h3>
+            <p class="about__paragrah">
+              Uniformidad en los procedimientos: Los procesos deben seguir
+              estándares definidos para garantizar que los resultados sean
+              consistentes, independientemente de quién los ejecute. Esto
+              asegura la calidad y predictibilidad de las operaciones.
+            </p>
+          </article>
+
+          <article class="about__icons">
+            <i
+              class="fas fa-arrows-alt about__icon"
+              style="font-size: 3rem; color: #2091f9"
+            ></i>
+            <h3 class="about__title">Flexibilidad y adaptabilidad</h3>
+            <p class="about__paragrah">
+              Capacidad de respuesta al cambio: Los procesos deben ser flexibles
+              para adaptarse rápidamente a cambios en el entorno de negocio, las
+              necesidades del cliente o nuevas tecnologías. Un proceso rígido
+              puede volverse obsoleto rápidamente.
+            </p>
+          </article>
+
+          <article class="about__icons">
+            <i
+              class="fas fa-user-shield about__icon"
+              style="font-size: 3rem; color: #2091f9"
+            ></i>
+            <h3 class="about__title">Responsabilidad y roles claros</h3>
+            <p class="about__paragrah">
+              Asignación de roles y responsabilidades: Cada proceso debe tener
+              claramente definidos los roles y responsabilidades de las personas
+              involucradas. Esto mejora la coordinación y evita duplicidades o
+              confusiones.
+            </p>
+          </article>
+
+          <article class="about__icons">
+            <i
+              class="fas fa-exclamation-triangle about__icon"
+              style="font-size: 3rem; color: #2091f9"
+            ></i>
+            <h3 class="about__title">Enfoque en la prevención de errores</h3>
+            <p class="about__paragrah">
+              Mejor prevenir que corregir: Es más eficiente prevenir los errores
+              antes de que ocurran que corregirlos después. Esto se puede lograr
+              mediante controles de calidad a lo largo del proceso y revisiones
+              constantes.
+            </p>
+          </article>
+
+          <article class="about__icons">
+            <i
+              class="fas fa-eye about__icon"
+              style="font-size: 3rem; color: #2091f9"
+            ></i>
+            <h3 class="about__title">Transparencia y trazabilidad</h3>
+            <p class="about__paragrah">
+              Visibilidad de las operaciones: Los procesos deben ser
+              transparentes para que cualquier persona involucrada pueda
+              entender cómo funcionan y cuál es su estado actual. La
+              trazabilidad asegura que todas las etapas del proceso sean
+              auditables y verificables.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="knowledge" id="diagnostico">
+        <div class="knowledge__container container">
+          <div class="knowledege__texts">
+            <h2 class="subtitle">
+              Diagnóstico integral de los contextos tecnológicos
+            </h2>
+            <p class="knowledge__paragraph">
+              El diagnóstico integral implica un análisis exhaustivo que abarca
+              múltiples dimensiones del contexto tecnológico, con el fin de
+              identificar fortalezas, debilidades, oportunidades y amenazas.
+
+              <br />
+              El diagnóstico implica la revisión de la infraestructura
+              tecnológica, incluyendo hardware, software, redes y sistemas de
+              información. Esto garantiza que todo el entorno esté actualizado y
+              sea capaz de soportar las operaciones de la organización.
+            </p>
+          </div>
+
+          <figure class="knowledge__picture">
+            <img src="./images/img1.jpg" class="knowledge__img" />
+          </figure>
+        </div>
+      </section>
+      <section class="knowledge" id="diagnostico">
+        <div class="knowledge__container container">
+          <figure class="knowledge__picture">
+            <img src="./images/img2.jpg" class="knowledge__img" />
+          </figure>
+          <div class="knowledege__texts">
+            <h2 class="subtitle">
+              Diagnóstico integral de los contextos tecnológicos y el Análisis
+              de la capacidad tecnológica
+            </h2>
+            <p class="knowledge__paragraph">
+              Se examina si los recursos tecnológicos actuales son suficientes
+              para cumplir con los objetivos de negocio. Esto incluye la
+              escalabilidad, eficiencia y adecuación de las tecnologías
+              implementadas.
+
+              <br />
+              <br />
+              El diagnóstico integral también incluye la evaluación de posibles
+              riesgos tecnológicos, como vulnerabilidades de seguridad,
+              obsolescencia tecnológica o ineficiencias en los procesos.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="knowledge" id="diagnostico">
+        <div class="knowledge__container container">
+          <div class="knowledege__texts">
+            <h2 class="subtitle">
+              Posibles Resultados de un Diagnóstico Integral
+            </h2>
+            <p class="knowledge__paragraph">
+              <strong> Modernización tecnológica: </strong>
+              Implementación de tecnologías más actuales que impulsen la
+              eficiencia operativa.
+              <br />
+              <br />
+              <strong> Mejoras en seguridad: </strong>
+              Mejoras en seguridad: Fortalecimiento de las medidas de seguridad
+              para mitigar riesgos tecnológicos.
+              <br />
+              <br />
+              <strong> Optimización de procesos: </strong>
+              Optimización de procesos: Automatización y mejora en la
+              integración de los procesos tecnológicos.
+              <br />
+              <br />
+              <strong> Estrategia de innovación: </strong>
+              Alineación con nuevas tendencias tecnológicas que impulsen la
+              transformación digital de la organización.
+              <br />
+              <br />
+              Este enfoque permite a las organizaciones tener una visión clara
+              de su situación tecnológica actual y tomar decisiones estratégicas
+              para mantenerse competitivas y resilientes en un entorno
+              tecnológico en constante cambio.
+            </p>
+          </div>
+          <figure class="knowledge__picture">
+            <img src="./images/img3.jpg" class="knowledge__img" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="testimony" id="procesos">
+        <div style="width: 90%; margin: 0px auto; margin-bottom: -100px">
+          <h2 class="subtitle">Los procesos y la informática</h2>
+        </div>
+        <div class="testimony__container container">
+          <img
+            src="./images/leftarrow.svg"
+            class="testimony__arrow"
+            id="before"
+          />
+
+          <section class="testimony__body testimony__body--show" data-id="1">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Los procesos y la
+                <span class="testimony__course">informática</span>
+              </h2>
+              <p class="testimony__review">
+                Los procesos y la informática están estrechamente
+                interrelacionados, ya que los sistemas informáticos se utilizan
+                para mejorar, automatizar y optimizar los procesos dentro de una
+                organización. Aquí te explico cómo estos dos conceptos se
+                conectan y por qué son fundamentales en el ámbito tecnológico y
+                empresarial.
+              </p>
             </div>
-        </section>
 
-        <section class="knowledge">
-            <div class="knowledge__container container">
-                <div class="knowledege__texts">
-                    <h2 class="subtitle">Curso completo de CSS3. ¡Domina CSS de una vez por todas!</h2>
-                    <p class="knowledge__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
-                        aliquam nemo in facere suscipit at delectus unde labore ad officia iste accusantium eaque
-                        aperiam laborum est voluptate totam? Modi, obcaecati?</p>
-                    <a href="#" class="cta">Entra al curso</a>
-                </div>
+            <figure class="testimony__picture">
+              <img src="./images/img1.jpg" class="testimony__img" />
+            </figure>
+          </section>
 
-                <figure class="knowledge__picture">
-                    <img src="./images/macbook.png" class="knowledge__img">
-                </figure>
+          <section class="testimony__body" data-id="2">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Definición de
+                <span class="testimony__course">Procesos</span>
+              </h2>
+              <p class="testimony__review">
+                Los procesos se refieren a una serie de actividades o pasos que
+                se llevan a cabo para lograr un objetivo específico, ya sea la
+                creación de un producto, la prestación de un servicio o la
+                resolución de un problema. Los procesos son secuenciales y
+                repetitivos, y pueden involucrar personas, herramientas y
+                tecnología.
+              </p>
             </div>
-        </section>
 
-        <section class="price container">
-            <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+            <figure class="testimony__picture">
+              <img src="./images/img2.jpg" class="testimony__img" />
+            </figure>
+          </section>
 
-            <div class="price__table">
-                <div class="price__element">
-                    <p class="price__name">Flexbox</p>
-                    <h3 class="price__price">Free</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Flexbox</p>
-                        <p class="price__features">Layouts</p>
-                        <p class="price__features">Responsive</p>
-                    </div>
-
-                    <a href="#" class="price__cta">Empieza ahora</a>
-                </div>
-
-
-                <div class="price__element price__element--best">
-                    <p class="price__name">Grid</p>
-                    <h3 class="price__price">$30/mes</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Grid</p>
-                        <p class="price__features">Implicit Grid</p>
-                        <p class="price__features">Responsive</p>
-                    </div>
-
-                    <a href="#" class="price__cta">Empieza ahora</a>
-                </div>
-
-
-                <div class="price__element">
-                    <p class="price__name">Animaciones</p>
-                    <h3 class="price__price">$40/mes</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Animation</p>
-                        <p class="price__features">Transition</p>
-                        <p class="price__features">Render Website</p>
-                    </div>
-
-                    <a href="#" class="price__cta">Empieza ahora</a>
-                </div>
-
-
+          <section class="testimony__body" data-id="3">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                La informática como
+                <span class="testimony__course">habilitador de procesos</span>
+              </h2>
+              <p class="testimony__review">
+                La informática se refiere al uso de sistemas computacionales
+                para procesar, almacenar y transmitir información. En el
+                contexto de los procesos, la informática permite la
+                automatización de tareas que antes eran manuales, mejorando así
+                la eficiencia y reduciendo errores. A través de software, bases
+                de datos y sistemas integrados, la informática facilita la
+                gestión y optimización de los procesos.
+              </p>
             </div>
-        </section>
 
-        <section class="testimony">
-            <div class="testimony__container container">
-                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+            <figure class="testimony__picture">
+              <img src="./images/img1.jpg" class="testimony__img" />
+            </figure>
+          </section>
 
-                <section class="testimony__body testimony__body--show" data-id="1">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Jordan Alexander, <span class="testimony__course">estudiante
-                                de CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
-                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/face.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="2">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Alejandra Perez, <span class="testimony__course">estudiante de
-                                CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
-                            voluptatum!</p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/face2.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="3">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Karen Arteaga, <span class="testimony__course">estudiante de
-                                CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/face3.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="4">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Kevin Ramirez, <span class="testimony__course">estudiante de
-                                CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/face4.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-
-                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+          <section class="testimony__body" data-id="4">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Optimización de procesos mediante
+                <span class="testimony__course">la informática</span>
+              </h2>
+              <p class="testimony__review">
+                Los sistemas informáticos permiten recopilar datos sobre cómo se
+                ejecutan los procesos, lo que facilita el análisis y la
+                optimización de los mismos. Con las herramientas adecuadas, se
+                pueden identificar cuellos de botella, tareas redundantes o
+                áreas donde los recursos no se están utilizando de manera
+                eficiente.
+              </p>
             </div>
+
+            <figure class="testimony__picture">
+              <img src="./images/img2.jpg" class="testimony__img" />
+            </figure>
+          </section>
+
+          <img
+            src="./images/rightarrow.svg"
+            class="testimony__arrow"
+            id="next"
+          />
+        </div>
+      </section>
+
+      <section class="questions container" id="procesos2">
+        <h2 class="subtitle">Caracterización de procesos en la informática</h2>
+        <p class="questions__paragraph">
+          La caracterización es fundamental para entender cómo los procesos
+          informáticos funcionan, cómo interactúan entre sí y cómo se pueden
+          optimizar. la caracterización de los procesos en la informática es un
+          paso fundamental para el buen funcionamiento de cualquier sistema
+          informático, ya que permite identificar, analizar y mejorar la manera
+          en que se gestionan y ejecutan las tareas tecnológicas dentro de una
+          organización o sistema.
+        </p>
+
+        <section class="questions__container">
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Conceptos Clave en la Caracterización de Procesos Informáticos
+                <span class="questions__arrow">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                <strong>Identificación de los procesos:</strong>
+                Implica reconocer y definir los procesos claves que ocurren
+                dentro de un sistema informático, tales como la gestión de
+                datos, el procesamiento de información, la comunicación entre
+                redes y la ejecución de software. Ejemplos: Procesos de consulta
+                de bases de datos, compilación de código, o sincronización de
+                datos entre sistemas distribuidos.
+              </p>
+            </div>
+          </article>
+
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Descripción de los procesos
+                <span class="questions__arrow">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                La descripción se enfoca en definir cómo se ejecutan los
+                procesos, qué recursos necesitan, cuáles son sus entradas y
+                salidas, y qué actores (humanos o máquinas) participan en su
+                ejecución. Ejemplo: Un proceso de autenticación en un sistema
+                informático puede requerir credenciales (entrada), verificarlas
+                contra una base de datos (proceso), y luego otorgar acceso o
+                denegarlo (salida).
+              </p>
+            </div>
+          </article>
+
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Clasificación de procesos
+                <span class="questions__arrow">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Los procesos en informática se pueden clasificar de diversas
+                maneras, por ejemplo: Procesos en tiempo real: Aquellos que
+                deben ejecutarse dentro de un marco temporal preciso, como los
+                sistemas de control de tráfico aéreo. Procesos por lotes:
+                Ejecutan grandes volúmenes de tareas en segundo plano, sin
+                intervención del usuario. Procesos interactivos: Requieren la
+                interacción directa del usuario, como la edición de documentos o
+                el uso de aplicaciones web.
+              </p>
+            </div>
+          </article>
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Flujo de trabajo
+                <span class="questions__arrow">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Una parte importante de la caracterización es definir el flujo
+                de trabajo o workflow de cada proceso, es decir, los pasos que
+                sigue un proceso desde su inicio hasta su finalización,
+                incluyendo decisiones, bifurcaciones y dependencias. Ejemplo: En
+                un sistema de comercio electrónico, el proceso de compra sigue
+                un flujo de trabajo que incluye seleccionar productos, realizar
+                pagos y confirmar la orden
+              </p>
+            </div>
+          </article>
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Medición de rendimiento
+                <span class="questions__arrow">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                La caracterización de procesos incluye la evaluación de su
+                rendimiento, lo cual es esencial para la optimización. Se
+                utilizan métricas como el tiempo de respuesta, el uso de
+                recursos y la eficiencia del proceso. Ejemplo: Un sistema que
+                tarda mucho en procesar consultas de usuarios puede analizarse
+                midiendo el tiempo que toma el proceso de consulta a la base de
+                datos.
+              </p>
+            </div>
+          </article>
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Documentación de procesos
+                <span class="questions__arrow">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Es importante que cada proceso esté debidamente documentado, con
+                diagramas de flujo, descripciones detalladas y especificaciones
+                técnicas, lo que facilita su comprensión y mejora. Ejemplo: La
+                documentación de un proceso de copias de seguridad automáticas
+                detallaría cuándo y cómo se ejecutan las copias, qué datos se
+                guardan y cómo se restauran.
+              </p>
+            </div>
+          </article>
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Optimización de procesos
+                <span class="questions__arrow">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Con una adecuada caracterización, los procesos se pueden
+                analizar para identificar áreas de mejora, como la reducción de
+                tiempos de ejecución, optimización de uso de memoria o
+                eliminación de redundancias. Ejemplo: Optimizar un proceso de
+                renderización gráfica puede implicar ajustar algoritmos o
+                distribuir mejor las tareas entre los núcleos de procesamiento.
+              </p>
+            </div>
+          </article>
         </section>
 
-        <section class="questions container">
-            <h2 class="subtitle">Preguntas frecuentes</h2>
-            <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
-                doloribus neque perspiciatis sapiente fuga.</p>
-
-            <section class="questions__container">
-                <article class="questions__padding">
-                    <div class="questions__answer">
-                        <h3 class="questions__title">¿Qué es CSS?
-                            <span class="questions__arrow">
-                                <img src="./images/arrow.svg" class="questions__img">
-                            </span>
-                        </h3>
-
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
-                    </div>
-                </article>
-
-                <article class="questions__padding">
-                    <div class="questions__answer">
-                        <h3 class="questions__title">¿Qué aprenderé en este curso?
-                            <span class="questions__arrow">
-                                <img src="./images/arrow.svg" class="questions__img">
-                            </span>
-                        </h3>
-
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
-                    </div>
-                </article>
-
-                <article class="questions__padding">
-                    <div class="questions__answer">
-                        <h3 class="questions__title">¿Qué es CSS GRID?
-                            <span class="questions__arrow">
-                                <img src="./images/arrow.svg" class="questions__img">
-                            </span>
-                        </h3>
-
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
-                    </div>
-                </article>
-            </section>
-
-            <section class="questions__offer">
-                <h2 class="subtitle">¿Estas listo para aprender CSS?</h2>
-                <p class="questions__copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
-                    architecto magnam, officiis ex porro vero est voluptates quaerat quibusdam illo veniam reprehenderit
-                    eius atque tempora iure ab non autem.</p>
-                <a href="#" class="cta">Aprende ahora</a>
-            </section>
+        <section class="questions__offer">
+          <h2 class="subtitle">
+            Beneficios de la Caracterización de Procesos Informáticos
+          </h2>
+          <p class="questions__copy">
+            Claridad y control: Al definir claramente cada proceso, se logra un
+            mayor control sobre los sistemas y su comportamiento. Mejora
+            continua: La caracterización permite identificar áreas donde los
+            procesos pueden mejorarse o automatizarse. Escalabilidad: Procesos
+            bien definidos y caracterizados son más fáciles de escalar cuando la
+            demanda crece, garantizando que el sistema se pueda adaptar.
+            Seguridad: Con una adecuada caracterización, se pueden identificar
+            posibles vulnerabilidades o fallos en los procesos, permitiendo
+            implementar soluciones de seguridad más efectivas. En resumen, la
+            caracterización de los procesos en la informática es un paso
+            fundamental para el buen funcionamiento de cualquier sistema
+            informático, ya que permite identificar, analizar y mejorar la
+            manera en que se gestionan y ejecutan las tareas tecnológicas dentro
+            de una organización o sistema.
+          </p>
+          <a
+            href="https://es.wikipedia.org/wiki/Proceso_(inform%C3%A1tica)"
+            class="cta"
+            >Aprende ahora</a
+          >
         </section>
+      </section>
+
+      <div class="custom-container" id="orga">
+        <h2 class="subtitle">Organización de Procesos en la Informática</h2>
+        <div class="custom-section">
+          <div class="custom-card">
+            <i class="fas fa-tasks"></i>
+            <h3>Definición de Procesos</h3>
+            <p>
+              Los procesos en informática son secuencias de acciones o tareas
+              estructuradas para lograr objetivos específicos, como el
+              procesamiento de datos o la ejecución de un programa.
+            </p>
+          </div>
+          <div class="custom-card">
+            <i class="fas fa-layer-group"></i>
+            <h3>Priorización y Clasificación</h3>
+            <p>
+              Los procesos pueden clasificarse según su prioridad, por ejemplo,
+              procesos interactivos, en segundo plano o de alta prioridad, como
+              aquellos críticos del sistema.
+            </p>
+          </div>
+          <div class="custom-card">
+            <i class="fas fa-sync-alt"></i>
+            <h3>Coordinación y Sincronización</h3>
+            <p>
+              Los procesos deben estar sincronizados para evitar problemas como
+              condición de carrera o deadlock. Se utilizan herramientas como
+              semáforos o monitores.
+            </p>
+          </div>
+          <div class="custom-card">
+            <i class="fas fa-memory"></i>
+            <h3>Asignación de Recursos</h3>
+            <p>
+              Cada proceso necesita recursos como tiempo de CPU o memoria. La
+              planificación de procesos garantiza que se distribuyan de manera
+              eficiente.
+            </p>
+          </div>
+          <div class="custom-card">
+            <i class="fas fa-cubes"></i>
+            <h3>Modularización de Procesos</h3>
+            <p>
+              Dividir los procesos en módulos más pequeños facilita la
+              escalabilidad y mejora el rendimiento al permitir la ejecución
+              paralela.
+            </p>
+          </div>
+          <div class="custom-card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Monitoreo y Control</h3>
+            <p>
+              Monitorear los procesos en ejecución ayuda a identificar cuellos
+              de botella y posibles problemas, mejorando el rendimiento del
+              sistema.
+            </p>
+          </div>
+          <div class="custom-card">
+            <i class="fas fa-expand-arrows-alt"></i>
+            <h3>Escalabilidad y Flexibilidad</h3>
+            <p>
+              Los sistemas informáticos deben ser escalables, permitiendo que
+              los procesos se distribuyan eficientemente a medida que crece la
+              demanda.
+            </p>
+          </div>
+          <div class="custom-card">
+            <i class="fas fa-robot"></i>
+            <h3>Automatización de Procesos</h3>
+            <p>
+              La automatización permite que tareas rutinarias se ejecuten sin
+              intervención manual, lo que mejora la eficiencia operativa.
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
-        <section class="footer__container container">
-            <nav class="nav nav--footer">
-                <h2 class="footer__title">Curso CSS.</h2>
+      <section class="footer__container container">
+        <nav class="nav nav--footer">
+          <h2 class="footer__title">Gestión de procesos</h2>
 
-                <ul class="nav__link nav__link--footer">
-                    <li class="nav__items">
-                        <a href="#" class="nav__links">Inicio</a>
-                    </li>
-                    <li class="nav__items">
-                        <a href="#" class="nav__links">Acerca de</a>
-                    </li>
-                    <li class="nav__items">
-                        <a href="#" class="nav__links">Contacto</a>
-                    </li>
-                    <li class="nav__items">
-                        <a href="#" class="nav__links">Blog</a>
-                    </li>
-                </ul>
-            </nav>
+          <ul class="nav__link nav__link--footer">
+            <li class="nav__items">
+              <a href="#principios" class="nav__links">Principios</a>
+            </li>
+            <li class="nav__items">
+              <a href="#diagnostico" class="nav__links">Diagnóstico</a>
+            </li>
+            <li class="nav__items">
+              <a href="#procesos" class="nav__links">Informática</a>
+            </li>
+            <li class="nav__items">
+              <a href="#procesos2" class="nav__links">Caracterización</a>
+            </li>
+            <li class="nav__items">
+              <a href="#orga" class="nav__links">Organización</a>
+            </li>
+          </ul>
+        </nav>
 
-            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
-                <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
-                <div class="footer__inputs">
-                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
-                    <input type="submit" value="Registrate" class="footer__submit">
-                </div>
-            </form>
-        </section>
+        <form
+          class="footer__form"
+          action="https://formspree.io/f/mknkkrkj"
+          method="POST"
+        >
+          <h2 class="footer__newsletter">Suscribete</h2>
+          <div class="footer__inputs">
+            <input
+              type="email"
+              placeholder="Email:"
+              class="footer__input"
+              name="_replyto"
+            />
+            <input type="submit" value="Registrate" class="footer__submit" />
+          </div>
+        </form>
+      </section>
 
-        <section class="footer__copy container">
-            <div class="footer__social">
-                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
-                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
-                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
-            </div>
+      <section class="footer__copy container">
+        <div class="footer__social">
+          <a href="#" class="footer__icons"
+            ><img src="./images/facebook.svg" class="footer__img"
+          /></a>
+          <a href="#" class="footer__icons"
+            ><img src="./images/twitter.svg" class="footer__img"
+          /></a>
+          <a href="#" class="footer__icons"
+            ><img src="./images/youtube.svg" class="footer__img"
+          /></a>
+        </div>
 
-            <h3 class="footer__copyright">Derechos reservados &copy; Jordan Alexander</h3>
-        </section>
+        <h3 class="footer__copyright">
+          Derechos reservados &copy; Fernando Flores
+        </h3>
+      </section>
     </footer>
 
     <script src="./js/slider.js"></script>
     <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
-</body>
-
+  </body>
 </html>
