@@ -726,3 +726,185 @@ body {
     margin-bottom: 20px;
   }
 }
+
+
+
+/* planificacion de los procesos de la informatica */
+
+.blog-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); */
+  padding: 2rem;
+  animation: fadeIn 1.2s ease-in-out;
+  color: #333;
+}
+
+.title {
+  text-align: center;
+  color: #2091f9;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.accordion {
+  margin-top: 1rem;
+}
+
+.accordion-item {
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.accordion-header {
+  background-color: #2091f9;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease;
+  font-size: 1.3rem;
+  border-radius: 5px 5px 0 0;
+}
+
+.accordion-header:hover {
+  background-color: #187dc0;
+}
+
+.accordion-content {
+  background-color: #f0f0f0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  padding: 0 1rem;
+}
+
+.accordion-content p, .accordion-content ul {
+  padding: 1rem 0;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+
+.accordion-content ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+
+.blog-section, .examples-section, .comments-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); */
+  padding: 2rem;
+  animation: fadeIn 1.2s ease-in-out;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.title, .section-title {
+  text-align: center;
+  color: #2091f9;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+/* Examples section */
+.examples {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.example-item {
+  /* background-color: #f0f0f0; */
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.example-item h3 {
+  color: #2091f9;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Comments section */
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.comment {
+  position: relative;
+  background-color: #f0f0f0;
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.avatar {
+  margin-right: 1rem;
+}
+
+.avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.comment-text {
+  /* background-color: #fff; */
+  padding: 1rem;
+  border-radius: 10px;
+  position: relative;
+  flex: 1;
+}
+
+.comment-text p {
+  color: #333;
+}
+
+
+/* Responsive Design */
+@media screen and (min-width: 768px) {
+  .examples {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .example-item {
+    width: 30%;
+  }
+
+  .comments {
+    flex-direction: row;
+  }
+
+  .comment {
+    flex: 1;
+    margin-right: 1rem;
+  }
+
+  .comment:last-child {
+    margin-right: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}

@@ -88,7 +88,11 @@
           operaciones dentro de una organización, con el objetivo de optimizar
           el uso de los recursos y mejorar el rendimiento.
         </p>
-        <a href="#principios" class="cta">Comienza ahora</a>
+        <div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+
+          <a href="#principios" class="cta">Comienza ahora</a>
+          <a href="#plani" class="cta">Planificación de procesos</a>
+        </div>
       </section>
     </header>
 
@@ -686,6 +690,214 @@
           </div>
         </div>
       </div>
+
+<!-- planificacion de procesos de la informatica -->
+
+<section class="blog-section" id="plani">
+  <h1 class="title">Planificación de Procesos en la Informática</h1>
+  
+  <div class="accordion">
+    <div class="accordion-item">
+      <button class="accordion-header" onclick="toggleAccordion(event)">
+        ¿Qué es la Planificación de Procesos?
+      </button>
+      <div class="accordion-content">
+        <p>La planificación de procesos en informática se refiere a la gestión y organización del uso de la CPU por parte de diferentes tareas. Su objetivo es maximizar la eficiencia, reducir tiempos de espera y garantizar que todas las tareas tengan su oportunidad de ejecución.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header" onclick="toggleAccordion(event)">
+        Tipos de Planificación
+      </button>
+      <div class="accordion-content">
+        <p>Existen varios tipos de planificación de procesos, entre ellos:
+        <ul>
+          <li><strong>Planificación por prioridades:</strong> Los procesos se asignan en función de su importancia.</li>
+          <li><strong>Round Robin:</strong> Se asignan tiempos fijos a cada proceso en forma rotativa.</li>
+          <li><strong>FIFO (First In, First Out):</strong> Los procesos se ejecutan en el orden en que llegan.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header" onclick="toggleAccordion(event)">
+        Algoritmos de Planificación
+      </button>
+      <div class="accordion-content">
+        <p>Entre los algoritmos más comunes para la planificación de procesos se encuentran:
+        <ul>
+          <li>FIFO (First In, First Out)</li>
+          <li>SJF (Shortest Job First)</li>
+          <li>RR (Round Robin)</li>
+          <li>Planificación por Prioridades</li>
+        </ul>
+        Estos algoritmos tienen diferentes enfoques y se eligen según el tipo de sistema operativo y las necesidades de rendimiento.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header" onclick="toggleAccordion(event)">
+        Ventajas de una buena Planificación
+      </button>
+      <div class="accordion-content">
+        <p>Una buena planificación de procesos ayuda a:
+        <ul>
+          <li>Optimizar el uso del procesador.</li>
+          <li>Minimizar el tiempo de respuesta de las aplicaciones.</li>
+          <li>Evitar el bloqueo de procesos importantes.</li>
+          <li>Mejorar la experiencia de usuario en sistemas multitarea.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header" onclick="toggleAccordion(event)">
+        Impacto de la planificación en Sistemas Operativos
+      </button>
+      <div class="accordion-content">
+        <p>Los sistemas operativos modernos como Windows, Linux y macOS dependen en gran medida de una buena planificación de procesos para manejar múltiples tareas a la vez. El rendimiento de un sistema operativo, así como su capacidad para ejecutar programas sin bloqueos ni caídas, está directamente relacionado con la eficiencia del planificador de procesos.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header" onclick="toggleAccordion(event)">
+        Planificación Multinúcleo
+      </button>
+      <div class="accordion-content">
+        <p>Con la llegada de los procesadores multinúcleo, la planificación de procesos se ha vuelto más compleja y a la vez más eficiente. Los sistemas operativos deben ser capaces de distribuir adecuadamente los procesos entre los diferentes núcleos para aprovechar al máximo el hardware disponible y evitar sobrecargas en un solo núcleo.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header" onclick="toggleAccordion(event)">
+        Técnicas Avanzadas de Planificación
+      </button>
+      <div class="accordion-content">
+        <p>Algunas técnicas avanzadas de planificación incluyen:
+        <ul>
+          <li><strong>Planificación de Tiempo Real:</strong> Utilizada en sistemas donde es crucial cumplir con plazos específicos, como en dispositivos embebidos.</li>
+          <li><strong>Planificación Previa:</strong> Los procesos se planifican de manera anticipada antes de ser ejecutados, en lugar de decidir en el momento.</li>
+          <li><strong>Planificación Distribuida:</strong> Implica la planificación de procesos en sistemas distribuidos, donde diferentes máquinas ejecutan distintas partes de un proceso.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header" onclick="toggleAccordion(event)">
+        Desafíos en la Planificación de Procesos
+      </button>
+      <div class="accordion-content">
+        <p>A pesar de los avances, la planificación de procesos enfrenta varios desafíos:
+        <ul>
+          <li><strong>Deadlock:</strong> Cuando dos o más procesos esperan por recursos que nunca se liberarán, bloqueando así todo el sistema.</li>
+          <li><strong>Starvation:</strong> Un proceso de baja prioridad puede nunca llegar a ejecutarse si los procesos de alta prioridad siempre ocupan los recursos.</li>
+          <li><strong>Interrupciones:</strong> Las interrupciones constantes pueden afectar la eficiencia de los algoritmos de planificación.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header" onclick="toggleAccordion(event)">
+        ¿Cómo optimizar la Planificación de Procesos?
+      </button>
+      <div class="accordion-content">
+        <p>Para mejorar la planificación de procesos, los sistemas pueden:
+        <ul>
+          <li>Utilizar técnicas híbridas que combinen varios algoritmos.</li>
+          <li>Implementar sistemas de monitoreo que ajusten dinámicamente la asignación de recursos.</li>
+          <li>Incorporar planificación preventiva para evitar que un proceso consuma demasiados recursos.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header" onclick="toggleAccordion(event)">
+        Aplicaciones de la planificación de procesos
+      </button>
+      <div class="accordion-content">
+        <p>Los campos donde se aplica la planificación de procesos son amplios, desde sistemas operativos tradicionales hasta aplicaciones críticas como:
+        <ul>
+          <li>Sistemas embebidos en vehículos autónomos.</li>
+          <li>Robótica y control en tiempo real.</li>
+          <li>Redes distribuidas para manejo eficiente del tráfico de datos.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+    
+    <div class="accordion-item">
+      <button class="accordion-header" onclick="toggleAccordion(event)">
+        Conclusión: El futuro de la planificación de procesos
+      </button>
+      <div class="accordion-content">
+        <p>A medida que la tecnología sigue avanzando y los sistemas se vuelven más complejos, la planificación de procesos seguirá siendo un área clave para garantizar un rendimiento óptimo en todo tipo de aplicaciones, desde la inteligencia artificial hasta los dispositivos del Internet de las Cosas (IoT).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="examples-section">
+  <h2 class="section-title">Ejemplos de Planificación de Procesos en la Informática</h2>
+  <div class="examples">
+    <div class="example-item">
+      <h3>Planificación Round Robin en Linux</h3>
+      <p>En sistemas operativos Linux, la planificación Round Robin se utiliza para dar a cada proceso una cantidad fija de tiempo de CPU, garantizando que todos los procesos tengan oportunidad de ejecutarse en un sistema multitarea.</p>
+    </div>
+
+    <div class="example-item">
+      <h3>Planificación de Prioridades en Windows</h3>
+      <p>Windows emplea la planificación de prioridades donde los procesos más críticos, como los de sistema, reciben más tiempo de CPU en comparación con los procesos de baja prioridad.</p>
+    </div>
+
+    <div class="example-item">
+      <h3>Algoritmo SJF en sistemas embebidos</h3>
+      <p>En dispositivos embebidos, como sistemas de control en tiempo real, el algoritmo SJF (Shortest Job First) se utiliza para priorizar las tareas más cortas, lo que reduce el tiempo de espera promedio.</p>
+    </div>
+  </div>
+</section>
+
+<section class="comments-section">
+  <h2 class="section-title">Comentarios de Expertos</h2>
+  <div class="comments">
+    <div class="comment">
+      <div class="avatar">
+        <img src="https://www.elcorreo.com/xlsemanal/wp-content/uploads/sites/5/2023/04/alan-turing-inventor-informatica-espia-codigo-enigma-segunda-guerra-mundial.jpg" alt="Foto de experto 1">
+      </div>
+      <div class="comment-text">
+        <p>"La planificación de procesos es esencial en cualquier sistema operativo moderno. Un mal algoritmo puede causar problemas de rendimiento significativos." - Alan Turing</p>
+      </div>
+      
+    </div>
+
+    <div class="comment">
+      <div class="avatar">
+        <img src="https://www.womenshistory.org/sites/default/files/images/2018-07/Hopper-3%20square.jpg" alt="Foto de experto 2">
+      </div>
+      <div class="comment-text">
+        <p>"Optimizar la planificación de procesos permite a los desarrolladores sacar el máximo provecho del hardware disponible." - Grace Hopper</p>
+      </div>
+      
+    </div>
+
+    <div class="comment">
+      <div class="avatar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/HD.3F.191_%2811239892036%29.jpg/1200px-HD.3F.191_%2811239892036%29.jpg" alt="Foto de experto 3">
+      </div>
+      <div class="comment-text">
+        <p>"Los algoritmos de planificación juegan un papel crucial en sistemas distribuidos y en tiempo real." - John von Neumann</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+        
     </main>
 
     <footer class="footer">

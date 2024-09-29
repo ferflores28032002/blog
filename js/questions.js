@@ -19,3 +19,18 @@
         });
     });
 })();
+
+
+
+function toggleAccordion(event) {
+    const header = event.target;
+    const content = header.nextElementSibling;
+  
+    const isActive = content.style.maxHeight;
+    if (isActive) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  }
+  
